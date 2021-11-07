@@ -5,9 +5,16 @@ footer{
 }
 
 a{
+<<<<<<< Updated upstream
     color: white ;
     text-decoration: none;
 }
+=======
+    color: white;
+    text-decoration: none;
+}
+
+>>>>>>> Stashed changes
 p{
     margin-top: 0px;
     margin-bottom: 0px;

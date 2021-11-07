@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*!
  * Bootswatch v5.1.3
  * Homepage: https://bootswatch.com
@@ -11525,3 +11526,24 @@
  .list-group-item .h6 {
    color: inherit;
  }
+=======
+.estilo{
+  background-color: #9FFFCB;
+}
+.fondo{
+  background-color: #FFAEBC;
+}
+.container-fluid{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.marginForm{
+  margin-top:  5px;
+  margin-bottom: 5px;
+}
+
+.btn-block{
+  width: 100%;
+}
+>>>>>>> Stashed changes

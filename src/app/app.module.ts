@@ -5,6 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule} from './modules/layout/layout.module';
 
+import { HttpClientModule } from '@angular/common/http';
+
+import { LayoutModule } from './modules/layout/layout.module';
+import { ExchangeRateModule } from './modules/exchange-rate/exchange-rate.module';
+import { CustomerModule } from './modules/customer/customer.module';
+import { HomeModule } from './modules/home/home.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +19,15 @@ import { LayoutModule} from './modules/layout/layout.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< Updated upstream
     LayoutModule
+=======
+    HttpClientModule,
+    LayoutModule,
+    ExchangeRateModule,
+    CustomerModule,
+    HomeModule
+>>>>>>> Stashed changes
   ],
   providers: [],
   bootstrap: [AppComponent]

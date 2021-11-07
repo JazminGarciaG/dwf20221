@@ -1,11 +1,14 @@
-<app-header></app-header>
-<app-nav></app-nav>
-<<<<<<< Updated upstream
+ <!-- Header-->
+ <header class="py-5 estilo" >
+     <div class="container px-4 px-lg-5 my-5">
+     <div class="text-center text-white">
+     <h1 class="display-4 fw-bolder">  Miin Tiendita </h1>
+     <p class="lead fw-normal text-white-50 mb-0"> papeleria cute & asiática </p>
+     </div>
+     </div>
+</header>
 
-
-
-  <!-- Section-->
-  <section class="py-5">
+<section class="py-5 fondo">
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4  justify-content-center">
             <div class="col mb-5">
@@ -18,12 +21,13 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder">Separador Pompitas de Gatito</h5>
                             <!-- Product price-->
-                            $25.00
+                            <span id = "prod1">$25.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito</a></div>
+                        <div  class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick="agrega_al_carrito('prod1')">  Agregar al carrito </a></div>
+
                     </div>
                 </div>
             </div> <!-- Articulo 1 -->
@@ -49,12 +53,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$84.74</span>
-                            $79.20
+                            <span id = "prod2">$79.20</span> 
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod2')"> Agregar al carrito</a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 2 -->
@@ -80,12 +84,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$30.00</span>
-                            $15.00
+                            <span id = "prod3">$15.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod3')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 3 -->
@@ -107,12 +111,12 @@
                                 <div class="bi-star-fill"></div>
                             </div>
                             <!-- Product price-->
-                            $12.28
+                            <span id = "prod4">$12.28</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod4')">Agregar al carrito</a></div>
                     </div>
                 </div>
             </div>  <!-- Articula 4 -->
@@ -138,12 +142,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$30.00</span>
-                            $15.00
+                            <span id = "prod5">$15.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod5')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 5 -->
@@ -158,12 +162,12 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder"> Juego de Gomas Platanos </h5>
                             <!-- Product price-->
-                            $15.00
+                            <span id = "prod6">$15.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod6')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 6 -->
@@ -189,12 +193,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$120.00</span>
-                            $100.00
+                            <span id = "prod7">$100.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod7')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 7 -->
@@ -209,12 +213,12 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder">Goma en Forma de Cutter</h5>
                             <!-- Product price-->
-                            $35.00
+                            <span id = "prod8">$35.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod8')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 8 -->
@@ -236,12 +240,12 @@
                                 <div class="bi-star-fill"></div>
                             </div>
                             <!-- Product price-->
-                            $29.00
+                            <span id = "prod9">$29.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod9')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 9 -->
@@ -267,12 +271,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$40.00</span>
-                            $35.00
+                            <span id = "prod10">$35.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod10')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 10 -->
@@ -288,12 +292,12 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder">Notas Adhesivas Diseño de Hojas </h5>
                             <!-- Product price-->
-                            $18.00
+                            <span id = "prod11">$18.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod11')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 11 -->
@@ -319,12 +323,12 @@
                             </div>
                             <!-- Product price-->
                             <span class="text-muted text-decoration-line-through">$380.00</span>
-                            $300.00
+                            <span id = "prod12">$300.00</span>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Agregar al carrito </a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onclick = "agrega_al_carrito('prod12')"> Agregar al carrito </a></div>
                     </div>
                 </div>
             </div> <!-- Articulo 12 -->
@@ -332,11 +336,3 @@
         </div>
     </div>
 </section>
-
-
-=======
-
-<router-outlet></router-outlet>
-
->>>>>>> Stashed changes
-<app-footer></app-footer>
