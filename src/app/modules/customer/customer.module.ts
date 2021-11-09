@@ -2,19 +2,26 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RegionComponent } from './component/region/region.component';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
-
+import { CustomerDetailComponent } from './component/customer-detail/customer-detail.component';
+import { CustomerComponent } from './component/customer/customer.component';
+import { NgxPhotoEditorModule } from "ngx-photo-editor";
 
 @NgModule({
   declarations: [
-    RegionComponent
+    RegionComponent,
+    CustomerDetailComponent,
+    CustomerComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPhotoEditorModule
   ],
   exports: [
-    RegionComponent
+    RegionComponent,
+    CustomerComponent,
+    CustomerDetailComponent
   ]
 })
 export class CustomerModule { }
